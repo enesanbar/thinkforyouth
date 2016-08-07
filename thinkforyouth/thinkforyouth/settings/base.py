@@ -8,7 +8,7 @@ SECRET_KEY = 'abl@5o%1rr+43jzl0h!cab2z^)ermyh=mh=eh4@j*!haqx71$b'
 
 # Application definition
 LOCAL_APPS = (
-
+    'pages.apps.PagesConfig',
 )
 
 DJANGO_APPS = (
