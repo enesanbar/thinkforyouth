@@ -1,6 +1,9 @@
 # SQLite Database
 *.sqlite3
 
+# do not commit your environment files as it contains sensitive information
+.env
+
 # IntelliJ project files
 .idea
 *.iml
@@ -83,9 +86,6 @@ target/
 
 # celery beat schedule file
 celerybeat-schedule
-
-# dotenv
-.env
 
 # virtualenv
 venv/
