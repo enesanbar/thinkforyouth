@@ -13,9 +13,17 @@ DATABASES = {
     }
 }
 
+# disable the automatic setup for debug_toolbar
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
+
+# required by debug_toolbar
+MIDDLEWARE += ('utils.middlewares.AtopdedTo110DebugMiddleware',)
+INTERNAL_IPS = ['127.0.0.1']
+
 # enable the following apps in the local environment
 INSTALLED_APPS += (
     'django_extensions',
+    'debug_toolbar',
 )
 
 # Output emails to the console.
