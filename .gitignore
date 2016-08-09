@@ -7,6 +7,10 @@
 # ignore the static directory as the static files are colleted from apps.
 thinkforyouth/static
 
+node_modules
+
+/thinkforyouth/utils/static/css/app.css
+
 # IntelliJ project files
 .idea
 *.iml
