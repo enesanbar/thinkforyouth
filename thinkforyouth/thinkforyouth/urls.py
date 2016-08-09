@@ -5,6 +5,9 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    # override default django-allauth views
+    url(r'^accounts/', include('profiles.urls')),
+    url(r'^accounts/', include('allauth.urls')),
     url(r'', include('pages.urls')),
 ]
 
