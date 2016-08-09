@@ -4,6 +4,9 @@
 # do not commit your environment files as it contains sensitive information
 .env
 
+# ignore the static directory as the static files are colleted from apps.
+thinkforyouth/static
+
 # IntelliJ project files
 .idea
 *.iml
