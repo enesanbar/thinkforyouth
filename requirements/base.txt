@@ -2,3 +2,6 @@ Django==1.10
 
 # to read environment variables from .env file
 django-dotenv==1.4.1
+
+# authentication
+django-allauth==0.26.1
