@@ -11,6 +11,10 @@ node_modules
 
 /thinkforyouth/utils/static/css/app.css
 
+# ignore auto generated webpack files
+/thinkforyouth/assets/bundles
+/thinkforyouth/webpack-stats.json
+
 # IntelliJ project files
 .idea
 *.iml

@@ -5,3 +5,6 @@ django-dotenv==1.4.1
 
 # authentication
 django-allauth==0.26.1
+
+# to load react source files
+django-webpack-loader==0.3.3
